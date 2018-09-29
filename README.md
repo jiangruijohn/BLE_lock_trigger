@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Mobile checkin : Make a door unlocker with Arduino pro micro + Bluetooth 4.0 (BLE) 
 
-You can use the [editor on GitHub](https://github.com/jiangruijohn/lock_trigger/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Goal
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Automatically unlock & lock the door after verifying the passcode and command received via bluetooth 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Features
 
-- Bulleted
-- List
+ - Automatically unlock the door if people walk close to the door from inside of the room 
+    ```markdown
+    [image]
+    ```
+ - For people want to get into the room from outside, this device can receive passcode and command via bluetooh, verify eligibility and trigger unlocking function
+    ```markdown
+    [image]
+    ```
+    
+    
+    
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jiangruijohn/lock_trigger/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Hardwares
+ #### 1. List
+  - Arduino ( pro micro )
+  - Bluetooth 4.0 module (BLE)
+  - PIR Sensor
+  - Relay
+  - Jump wires
+ #### 2. Connecting Hardwares
+ ```markdown
+    [image]
+ ```
+    
