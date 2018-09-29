@@ -20,6 +20,7 @@ Automatically unlock & lock the door after verifying the passcode and command re
    <p><img src="https://i.imgur.com/oyN3i4u.png" alt="Commercial Photography" width="360" height="270"></p>
    
  - Display working status in OLED
+ - Working in 4 modes: unlock once with 3 seconds delay, keep unlock with timer set, alway unlock until lock command, lock.
     
 
 
